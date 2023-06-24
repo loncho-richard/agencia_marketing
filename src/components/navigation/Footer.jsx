@@ -114,7 +114,7 @@ function Footer(){
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.solutions.map((item) => (
                       <li key={item.name}>
-                        <Link to={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                        <Link to={item.href} className="text-base text-gray-500 hover:text-gray-900 border-b-2 border-transparent hover:border-orange-button transition duration-300 ease-in-out">
                           {item.name}
                         </Link>
                       </li>
@@ -126,7 +126,7 @@ function Footer(){
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.support.map((item) => (
                       <li key={item.name}>
-                        <Link to={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                        <Link to={item.href} className="text-base text-gray-500 hover:text-gray-900 border-b-2 border-transparent hover:border-orange-button transition duration-300 ease-in-out">
                           {item.name}
                         </Link>
                       </li>
@@ -140,7 +140,7 @@ function Footer(){
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.company.map((item) => (
                       <li key={item.name}>
-                        <Link to={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                        <Link to={item.href} className="text-base text-gray-500 hover:text-gray-900 border-b-2 border-transparent hover:border-orange-button transition duration-300 ease-in-out">
                           {item.name}
                         </Link>
                       </li>
@@ -151,10 +151,11 @@ function Footer(){
                   <h3 className="text-base font-medium text-gray-900">Follow Us</h3>
                   <ul role="list" className="mt-4 space-y-4">
                     {navigation.social.map((item) => (
-                      <li key={item.name}>
-                        <a href={item.href} className="text-base flex text-gray-500 hover:text-gray-900">
-                          {item.name} <item.icon className="ml-1 h-6 w-6" aria-hidden="true" />
+                      <li key={item.name} className="flex">
+                        <a href={item.href} className="text-base border-b-2 border-transparent hover:border-orange-button transition duration-300 ease-in-out mr-50 flin-flex text-gray-500 hover:text-gray-900">
+                          {item.name} 
                         </a>
+                        <item.icon className="in-flex ml-1 h-6 w-6" aria-hidden="true" />
                       </li>
                     ))}
                   </ul>
