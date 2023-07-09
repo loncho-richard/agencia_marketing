@@ -5,16 +5,16 @@ function Header(){
 
     return(
         <main>
-        <div className="relative px-6 lg:px-8">
+        <div className="relative px-6 lg:px-8 ">
           <div className="mx-auto max-w-full xl:mx-12 xl:pt-40 xl:pb-64 lg:pt-36 lg:pb-48 pt-24 pb-12 sm:pt-36 font-medium sm:pb-40">
             <div>
               
               <div className="pb-40 pr-50">
                 <h1 className="text-4xl font-semibold tracking-tight pb-16 sm:text-7xl">
-                  Cases Studies 
+                  Software Development Services 
                 </h1>
                 <p className="mt-6 text-2xl font-normal leading-8 text-gray-800 max-w-4xl">
-                  We believe that great products cannot happen without passion, intelligence, and personal commitment, and it is demonstrated by our portfolio that spans different customers, industries, and target audiences.
+                  We love to shake established thought-patterns and create what has <br/> never been attempted before. We take seeds and grow jungles
                 </p>
                 
               </div>
